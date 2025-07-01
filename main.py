@@ -8,4 +8,9 @@ def insertionSort(nums):
             nums[j + 1] = nums[j]
             j -= 1
         nums[j + 1] = val
-    
+
+# test cases
+if __name__ == '__main__':
+    nums = [1,3,5,4,2,6,7]
+    insertionSort(nums)
+    print(nums) # prints [7, 6, 5, 4, 3, 2, 1]
